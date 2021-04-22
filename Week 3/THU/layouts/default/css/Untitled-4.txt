@@ -1,0 +1,60 @@
+Erstes Meeting
+==============
+- Besprechen Website, Analytics, Serach Console und Ads
+=> 2.5h DONE
+
+WP plugins 
+============
+- 301 redirects
+- structured product data
+-> ca. 15 Minuten
+=> https://gigi.swiss/wp-admin/admin.php?page=rank-math
+access to google search console needed
+=> DONE
+
+
+Google Ads
+===========
+Ziel:
+- 10 bis 15 Verkäufe im Monat (vor Corona 4 bis 5 ohne Ads) 
+
+- Smart Kampagne zurück zur normalen Kampagne
+=> geht nicht, man muss sie pausieren und analog eine neue erstellen und diese optimieren
+=> ca. 1 Stunde
+=> DONE
+
+- zusätzliche Kampagne (Remarketing)
+- Conversions einrichten und prüfen / Verknüpfung mit WooCommerce
+- Neue Keywords Edelsteinwasser, Edelsteinphiole, Vitajuwel
+- Ideen für Erweiterungen: Geschenk für andere / Lebenslange Garantie / Versand kostenlos, auch nach DE und AT
+=> ca. 3 Stunden
+=> DONE, noch zu prüfen
+
+
+
+Google Analytics
+=================
+- E-Commerce Tracking aktivieren
+=> woocommerce plugin zuerst installieren
+https://woocommerce.com/products/woocommerce-google-analytics/?utm_source=extensionsscreen&utm_medium=product&utm_campaign=wcaddons&wccom-site=https://gigi.swiss&wccom-back=%2Fwp-admin%2Fadmin.php%3Fpage%3Dwc-addons&wccom-woo-version=4.3.0&wccom-connect-nonce=50e16a2e46
+- Google Tag Manager einrichten?
+=> ca. 1.5 Stunde
+=> DONE, noch zu prüfen
+
+
+Website (WP)
+============
+- Startseite YOAST? neues Plugin, erledigt
+- Gratis versicherter Versand
+=> ca. 15-30 Minuten
+
+Macht Total:
+============
+ca. 6 Stunden 
+Zur Sicherheit mache ich einen Puffer von 6 bis 8 Stunden, wenn es mehr werden würde melde ich mich.
+Mit dem heutigen Meeting sind es dann 8.5-10.5 Stunden.
+90 CHF / Stunde Freundschaftspreis Jelena => 765 - 945 CHF
+
+Mein Vorschlag: eine der teureren Wasserkaraffen (ca. 500 CHF) sowie 
+a) eine Rechnung für den Rest 
+b) den Restbetrag aufschreiben und für eine nächste Karaffe "sparen" :)
