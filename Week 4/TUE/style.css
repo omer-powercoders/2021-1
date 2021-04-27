@@ -1,0 +1,18 @@
+/* direct child selector: first nested level */
+body > header {
+    background: red;
+}
+
+/* selecting all siblings, there can be other sibling elements in between */
+main header ~ section {
+    background: green;
+}
+
+/* selecting the immediately following sibling, it cannot be another sibling in between */
+main header + section {
+    background: blue;
+}
+
+main article + section {
+    background: yellow;
+}
