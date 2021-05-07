@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+    font-size: 0.625em;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+* {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+label[for="trigger-nav"]{
+    border: 3px solid teal;
+    border-width: 3px 0;
+    cursor: pointer;
+    height: 3rem;
+    position: fixed;
+    right: 3rem;
+    top: 3rem;
+    width: 4rem;
+    z-index: 1;
+}
+
+label span {
+    display: block;
+    font-size: 1px;
+    height: 1.1rem;
+    opacity: 0.01;
+}
+
+label[for="trigger-nav"]::after {
+    border-top: 3px solid teal;
+    content: "";
+    display: block;
+}
+
+#trigger-nav {
+    opacity: 0.01;
+    position: fixed;
+    right: -1rem;
+}
+ 
+#trigger-nav:checked + label {
+    border: 0;
+}
+
+#trigger-nav:checked + label::after {
+    transform: rotate(45deg);
+    transform-origin: center center;
+}
+
+#trigger-nav:checked + label::before {
+    border-top: 3px solid teal;
+    content: "";
+    display: block;
+    position: relative;
+    top: 1.4rem;
+    transform: rotate(135deg);
+    transform-origin: center center;
+}
+
+#trigger-nav:checked ~ nav {
+    right: 0;
+}
+
+nav {
+    background: #d2e7f2;
+    height: 100%;
+    position: fixed;
+    right: -80%;
+    transition: right 0.5s;
+    width: 80%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: #666666;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    padding: 2.5rem;
+    text-decoration: none;
+}
+
+/** for big tablets and desktop */
+@media screen and (min-width: 50em) {
+    label[for="trigger-nav"]{
+        right: -100%;
+    }
+    nav {
+        position: static;
+        width: 100%;
+    }
+    nav ul {
+        flex-direction: row;
+    }
+    nav a {
+        font-size: 2.5vw;
+    }
+}

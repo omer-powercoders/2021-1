@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+    font-size: 0.625em;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+* {
+    font-size: 2rem;
+}
+
+main {
+    border: 5px solid teal;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    /**
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    */
+
+    
+}
+
+section {
+    background: teal;
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 1rem;
+    padding: 1rem;
+
+    /**
+    flex: 1 25rem;
+    
+    flex-grow: 1;
+    flex-basis: 25rem;
+    */
+}
