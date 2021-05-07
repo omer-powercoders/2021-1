@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 7</title>
+
+</head>
+<body>
+<p>If you want reverse a number, just give that!:</p> 
+ <input id="box"> <br><br>
+<button onclick="button()">Just Look</button></br></br>
+<script>
+function button()
+{
+let a,no,b,temp=0;
+
+no=Number(document.getElementById("box").value);
+
+b = no;
+while (no>0)
+{
+a = no % 10;
+no =  parseInt(no/10);
+temp= temp * 10 + a ;
+}
+
+alert (temp);
+
+}
+</script>
+</body>
+</html>

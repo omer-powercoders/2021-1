@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 5</title>
+</head>
+<body>
+<button onclick="getFirstValue()">Weekdays alphabetically</button>
+
+<p id="show"></p>
+
+<script>
+let days = ["Monday","Thursday","Saturday","Wednesday","Tuesday"];
+document.getElementById("show").innerHTML = days;
+
+function getFirstValue() {
+  days.sort();
+  document.getElementById("show").innerHTML = days;
+}
+</script>
+</body>
+</html>

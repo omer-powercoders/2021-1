@@ -1,5 +1,9 @@
 /* Text Elements */
-
+.no-js{
+  width: 80%;
+  margin: auto;
+  height: auto;
+}
 h1 {
   margin-bottom: .75rem;
   color: #dae4e9;
@@ -79,15 +83,19 @@ picture {
     padding-left: 0vw;
     grid-area: main;
   }
+  .scroll{
+    width: 80%;
+  }
 
   main {
     display: grid;
-
+     overflow: hidden;
     grid-column-gap: 2vw;
   }
 
   .fig-1 {
     grid-area: fig-1;
+    width: 80%;
   }
 
   picture {
